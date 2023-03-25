@@ -138,6 +138,12 @@
 				<div class="flex-fill">
 					<form class="border border-secondary rounded bg-light p-5" id="contact_form" action="https://formsubmit.co/1673f04fbbe57232346f295340ee444c" method="POST">
 						<div class="form-group mb-3">
+						
+							<!-- Honeypot (to avoid spammers) -->
+							<input type="text" name="_honey" style="display:none">
+							<!-- Disable Captcha -->
+							<input type="hidden" name="_captcha" value="false">
+						
 							<h5>Email</h5>
 							<input type="email" class="form-control" placeholder="your_email@domain" name="Email" required>
 						</div>
