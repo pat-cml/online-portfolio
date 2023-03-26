@@ -159,7 +159,7 @@
 							<h5>Message</h5>
 							<textarea placeholder="Leave a message" class="form-control" name="Message" required></textarea>
 						</div>
-						<button type="submit" class="btn btn-outline-primary" style="width:100%;">Submit</button>
+						<button type="submit" class="btn btn-outline-primary" style="width:100%;" onclick="pingme()">Submit</button>
 					</form>
 				</div>
 			</div>
@@ -185,8 +185,8 @@
 	
 	<!-- Functions -->
     <script>
-        function ping(){
-            alert('Thank for reaching out!');
+        function pingme(){
+            alert('Message sent. Thank you.');
         }
     </script>
 </body>
