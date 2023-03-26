@@ -184,10 +184,15 @@
 	</div>
 	
 	<!-- Functions -->
-    <script>
-        function pingme(){
-            alert('Message sent. Thank you.');
-        }
-    </script>
+    	<script>
+		function pingme(){
+            	var pingmsg = document.getElementbyID('pingmsg');
+		$('.alert').alert('show');
+        	}
+        	function alert_close(){
+            	var closemsg = document.getElementbyID('closemsg');
+		$('.alert').alert('close');
+        	}
+    	</script>
 </body>
 </html>
